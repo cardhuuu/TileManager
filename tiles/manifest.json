@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "created": "2026-01-30",
+    "game_sets": [
+      "Base"
+    ],
+    "image_pack": "tiles/images/",
+    "tile_px": 256
+  },
+  "tiles": [
+    {
+      "id": "base_START",
+      "set": "Base",
+      "code": "START",
+      "name": "Sortida",
+      "image": "tiles/images/base_START.png",
+      "size": [
+        2,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 1.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 1.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": true,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_FINISH",
+      "set": "Base",
+      "code": "FINISH",
+      "name": "Arribada",
+      "image": "tiles/images/base_FINISH.png",
+      "size": [
+        1,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 0.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": true,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_S6",
+      "set": "Base",
+      "code": "S6",
+      "name": "Recta 6x2",
+      "image": "tiles/images/base_S2.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_CR90",
+      "set": "Base",
+      "code": "CR90",
+      "name": "Corba 90 deg",
+      "image": "tiles/images/base_CR90.png",
+      "size": [
+        2,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "N",
+          "direction": 90,
+          "lanes": [
+            {
+              "x": 0.6,
+              "y": 0.05,
+              "id": "L"
+            },
+            {
+              "x": 1.4,
+              "y": 0.05,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_CR45",
+      "set": "Base",
+      "code": "CR45",
+      "name": "Corba 45 deg",
+      "image": "tiles/images/base_CR45.png",
+      "size": [
+        2,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "N",
+          "direction": 45,
+          "lanes": [
+            {
+              "x": 0.9,
+              "y": 0.05,
+              "id": "L"
+            },
+            {
+              "x": 1.3,
+              "y": 0.05,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    }
+  ]
+}

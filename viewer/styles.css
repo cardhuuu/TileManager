@@ -1,0 +1,18 @@
+:root { --bg: #111; --fg: #eaeaea; --accent: #3cb371; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 14px/1.4 system-ui, Segoe UI, Roboto, sans-serif; color: var(--fg); background: var(--bg); }
+header { padding: 8px 12px; border-bottom: 1px solid #333; }
+h1 { font-size: 16px; margin: 0 0 6px; }
+.controls { display: flex; gap: 12px; align-items: center; }
+.hint { opacity: .8; }
+main { display: grid; grid-template-columns: 260px 1fr; height: calc(100vh - 58px); }
+#palette { border-right: 1px solid #333; overflow: auto; padding: 8px; }
+#palette .tile { display: grid; grid-template-columns: 56px 1fr; gap: 8px; align-items: center; padding: 6px; border: 1px solid #333; margin-bottom: 8px; border-radius: 6px; background: #1b1b1b; cursor: grab; }
+#palette img { width: 56px; height: 56px; object-fit: contain; background: transparent; }
+#palette .meta { font-size: 12px; }
+#stageWrap { position: relative; overflow: auto; }
+#grid { position: absolute; inset: 0; z-index: 0; background: #0f0f0f; }
+#stage { position: relative; min-width: 2048px; min-height: 1536px; z-index: 1; }
+.tile-inst { position: absolute; transform-origin: top left; user-select: none; }
+.tile-inst img { display: block; width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
+.connector { position: absolute; border-radius: 50%; background: rgba(0,255,255,.6); width: 6px; height: 6px; transform: translate(-3px, -3px); }
