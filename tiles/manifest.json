@@ -378,3 +378,655 @@
     }
   ]
 }
+{
+  "tiles": [
+    {
+      "id": "base_b",
+      "set": "Base",
+      "code": "B",
+      "name": "Recta b",
+      "image": "tiles/images/base_b_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_c",
+      "set": "Base",
+      "code": "C",
+      "name": "Recta c",
+      "image": "tiles/images/base_c_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_l",
+      "set": "Base",
+      "code": "L",
+      "name": "Recta l",
+      "image": "tiles/images/base_l_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_m",
+      "set": "Base",
+      "code": "M",
+      "name": "Recta m",
+      "image": "tiles/images/base_m_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_n",
+      "set": "Base",
+      "code": "N",
+      "name": "Recta n",
+      "image": "tiles/images/base_n_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    },
+    {
+      "id": "base_d",
+      "set": "Base",
+      "code": "D",
+      "name": "Recta d",
+      "image": "tiles/images/base_d_front.png",
+      "size": [
+        6,
+        2
+      ],
+      "anchors": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "connectors": [
+        {
+          "edge": "W",
+          "direction": 180,
+          "lanes": [
+            {
+              "x": 0.05,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 0.05,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        },
+        {
+          "edge": "E",
+          "direction": 0,
+          "lanes": [
+            {
+              "x": 5.95,
+              "y": 0.6,
+              "id": "L"
+            },
+            {
+              "x": 5.95,
+              "y": 1.4,
+              "id": "R"
+            }
+          ]
+        }
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false,
+        "sprint": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ]
+    }
+  ]
+}
