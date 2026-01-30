@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flamme Rouge – Visualitzador d'etapa (read‑only)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Etapa (només visualització)</h1>
+    <div class="controls">
+      <label>Px/unitat <input id="tilePx" type="number" value="256" min="64" step="32"></label>
+      <input id="fileInput" type="file" accept="application/json" />
+      <button id="loadSample">Carrega exemple</button>
+      <span class="hint">Clica un corredor i usa ← → per avançar/retreure (moviment sobre carril)</span>
+    </div>
+  </header>
+  <main>
+    <section id="canvasWrap">
+      <canvas id="grid" width="3000" height="2000"></canvas>
+      <div id="stage"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

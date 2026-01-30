@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "name": "Demo",
+    "version": "0.1"
+  },
+  "tiles": [
+    {
+      "id": "base_START",
+      "at": [
+        1,
+        3
+      ],
+      "rot": 0
+    },
+    {
+      "id": "base_f_front",
+      "at": [
+        3,
+        3
+      ],
+      "rot": 0
+    },
+    {
+      "id": "base_f_front",
+      "at": [
+        9,
+        3
+      ],
+      "rot": 0
+    },
+    {
+      "id": "base_t_front",
+      "at": [
+        15,
+        3
+      ],
+      "rot": 0
+    },
+    {
+      "id": "base_e_front",
+      "at": [
+        17,
+        1
+      ],
+      "rot": 0
+    },
+    {
+      "id": "base_u_front",
+      "at": [
+        17,
+        -1
+      ],
+      "rot": 270
+    }
+  ],
+  "riders": [
+    {
+      "id": "R1",
+      "color": "#ff5252",
+      "tileIndex": 1,
+      "lane": "L",
+      "t": 0.2
+    },
+    {
+      "id": "R2",
+      "color": "#4caf50",
+      "tileIndex": 2,
+      "lane": "R",
+      "t": 0.5
+    },
+    {
+      "id": "R3",
+      "color": "#ffd54f",
+      "tileIndex": 3,
+      "lane": "L",
+      "t": 0.7
+    }
+  ]
+}

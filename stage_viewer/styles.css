@@ -1,0 +1,15 @@
+
+:root{ --bg:#0f0f0f; --fg:#eaeaea; --grid:#222; --accent:#00c2ff; }
+*{ box-sizing:border-box }
+body{ margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 system-ui, Segoe UI, Roboto, sans-serif }
+header{ padding:8px 12px; border-bottom:1px solid #333; display:flex; align-items:center; gap:16px }
+h1{ font-size:16px; margin:0 }
+.controls{ display:flex; gap:12px; align-items:center }
+.hint{ opacity:.8 }
+#canvasWrap{ position:relative; width:100%; height:calc(100vh - 52px); overflow:auto }
+#grid{ position:absolute; inset:0; z-index:0; background:#101010 }
+#stage{ position:relative; min-width:2200px; min-height:1600px; z-index:1 }
+.tile{ position:absolute; user-select:none }
+.tile img{ display:block; width:100%; height:100%; object-fit:contain; pointer-events:none }
+.rider{ position:absolute; width:18px; height:18px; border-radius:50%; background:#ff5252; border:2px solid #111; transform:translate(-9px,-9px); box-shadow:0 0 0 1px #fff4 }
+.rider.sel{ outline:2px solid #fff }
