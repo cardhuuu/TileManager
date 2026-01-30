@@ -1,12 +1,12 @@
 {
   "meta": {
-    "version": "0.1.0",
+    "version": "0.2",
     "created": "2026-01-30",
+    "image_pack": "tiles/images/",
+    "tile_px": 256,
     "game_sets": [
       "Base"
-    ],
-    "image_pack": "tiles/images/",
-    "tile_px": 256
+    ]
   },
   "tiles": [
     {
@@ -14,7 +14,7 @@
       "set": "Base",
       "code": "START",
       "name": "Sortida",
-      "image": "tiles/images/base_START.png",
+      "image": "tiles/images/base_a_front.png",
       "size": [
         2,
         2
@@ -25,17 +25,29 @@
           0
         ],
         [
-          1,
-          0
-        ],
-        [
           0,
           1
         ],
         [
           1,
+          0
+        ],
+        [
+          1,
           1
         ]
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": true,
+        "finish": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
       ],
       "connectors": [
         {
@@ -54,19 +66,6 @@
             }
           ]
         }
-      ],
-      "features": {
-        "terrain": "normal",
-        "lanes": 2,
-        "start": true,
-        "finish": false,
-        "sprint": false
-      },
-      "rotations": [
-        0,
-        90,
-        180,
-        270
       ]
     },
     {
@@ -74,7 +73,7 @@
       "set": "Base",
       "code": "FINISH",
       "name": "Arribada",
-      "image": "tiles/images/base_FINISH.png",
+      "image": "tiles/images/base_u_front.png",
       "size": [
         1,
         2
@@ -89,6 +88,18 @@
           1
         ]
       ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": true
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
       "connectors": [
         {
           "edge": "E",
@@ -106,27 +117,14 @@
             }
           ]
         }
-      ],
-      "features": {
-        "terrain": "normal",
-        "lanes": 2,
-        "start": false,
-        "finish": true,
-        "sprint": false
-      },
-      "rotations": [
-        0,
-        90,
-        180,
-        270
       ]
     },
     {
-      "id": "base_S6",
+      "id": "base_F",
       "set": "Base",
-      "code": "S6",
-      "name": "Recta 6x2",
-      "image": "tiles/images/base_S2.png",
+      "code": "F",
+      "name": "Recta base_f",
+      "image": "tiles/images/base_f_front.png",
       "size": [
         6,
         2
@@ -137,32 +135,20 @@
           0
         ],
         [
-          1,
-          0
-        ],
-        [
-          2,
-          0
-        ],
-        [
-          3,
-          0
-        ],
-        [
-          4,
-          0
-        ],
-        [
-          5,
-          0
-        ],
-        [
           0,
           1
         ],
         [
           1,
+          0
+        ],
+        [
+          1,
           1
+        ],
+        [
+          2,
+          0
         ],
         [
           2,
@@ -170,7 +156,15 @@
         ],
         [
           3,
+          0
+        ],
+        [
+          3,
           1
+        ],
+        [
+          4,
+          0
         ],
         [
           4,
@@ -178,8 +172,24 @@
         ],
         [
           5,
+          0
+        ],
+        [
+          5,
           1
         ]
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
       ],
       "connectors": [
         {
@@ -214,27 +224,14 @@
             }
           ]
         }
-      ],
-      "features": {
-        "terrain": "normal",
-        "lanes": 2,
-        "start": false,
-        "finish": false,
-        "sprint": false
-      },
-      "rotations": [
-        0,
-        90,
-        180,
-        270
       ]
     },
     {
       "id": "base_CR90",
       "set": "Base",
       "code": "CR90",
-      "name": "Corba 90 deg",
-      "image": "tiles/images/base_CR90.png",
+      "name": "Corba 90",
+      "image": "tiles/images/base_e_front.png",
       "size": [
         2,
         2
@@ -245,17 +242,29 @@
           0
         ],
         [
-          1,
-          0
-        ],
-        [
           0,
           1
         ],
         [
           1,
+          0
+        ],
+        [
+          1,
           1
         ]
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
       ],
       "connectors": [
         {
@@ -290,27 +299,14 @@
             }
           ]
         }
-      ],
-      "features": {
-        "terrain": "normal",
-        "lanes": 2,
-        "start": false,
-        "finish": false,
-        "sprint": false
-      },
-      "rotations": [
-        0,
-        90,
-        180,
-        270
       ]
     },
     {
       "id": "base_CR45",
       "set": "Base",
       "code": "CR45",
-      "name": "Corba 45 deg",
-      "image": "tiles/images/base_CR45.png",
+      "name": "Corba 45",
+      "image": "tiles/images/base_h_front.png",
       "size": [
         2,
         2
@@ -321,17 +317,29 @@
           0
         ],
         [
-          1,
-          0
-        ],
-        [
           0,
           1
         ],
         [
           1,
+          0
+        ],
+        [
+          1,
           1
         ]
+      ],
+      "features": {
+        "terrain": "normal",
+        "lanes": 2,
+        "start": false,
+        "finish": false
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
       ],
       "connectors": [
         {
@@ -366,19 +374,6 @@
             }
           ]
         }
-      ],
-      "features": {
-        "terrain": "normal",
-        "lanes": 2,
-        "start": false,
-        "finish": false,
-        "sprint": false
-      },
-      "rotations": [
-        0,
-        90,
-        180,
-        270
       ]
     }
   ]
